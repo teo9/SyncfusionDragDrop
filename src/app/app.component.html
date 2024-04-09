@@ -1,0 +1,33 @@
+
+<div style="margin-top:70px;">
+  <ejs-sidebar [target]="'.content'" [enableGestures]="false">
+    <ejs-accordion>
+      <e-accordionitems>
+        <e-accordionitem expanded='true'>
+          <ng-template #header>
+            <div>ASP.NET</div>
+          </ng-template>
+
+          <ng-template #content>
+            <div id="ElementToDrag_1">
+              Element 1
+            </div>
+            <div id="ElementToDrag_2">
+              Element 2
+            </div>
+            <div id="ElementToDrag_3">
+              Element 3
+            </div>
+            &nbsp;
+          </ng-template>
+        </e-accordionitem>
+      </e-accordionitems>
+    </ejs-accordion>
+  </ejs-sidebar>
+</div>
+<div id="myContent" class="content">
+  <ejs-dashboardlayout #dashboard class="dashboard" id="dashboard">
+
+
+  </ejs-dashboardlayout>
+</div>
